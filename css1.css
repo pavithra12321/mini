@@ -1,0 +1,125 @@
+body{
+    font-size: 15px;
+    background-color: rgba(169, 242, 242, 0.366);
+    
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.food {
+    border-color: aqua;
+    border-radius: 5px;
+}
+
+
+.column{
+    float: left;
+    width: 13.33%;
+    padding: 3px;
+
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+    .column1{
+        float: left;
+        width: 30%;
+        padding: 10px;
+
+    }
+    .row1::after{
+        content: "";
+        display: table;
+        clear: both;
+    
+    }
+    .row5::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+    .column5{
+        float: left;
+        width: 30%;
+        padding: 10px;
+        
+    }
+    .name{
+        border-color: aqua;
+        border-radius: 20px;
+        background-color:white;
+        height: 60px;
+        width: 400px;
+        border-width: 3px;
+    }
+    .whole{
+        background-color: rgba(199, 250, 250, 0.305);
+    }
+    .logo{
+        border-color: aqua;
+        border-radius: 10px;
+        border-width: 3px;
+    }
+    .side{
+        border-color: aqua;
+        border-radius: 15px;
+        border-width: 3.5px;
+    }
+    .column2{
+        float: left;
+        width: 25%;
+        height: 400px;
+    
+    }
+
+    .logo1{
+        border-color: aqua;
+        border-radius: 10px;
+        border-width: 2.5px;
+    }
+    .custom-button
+    {
+        background-color: white;
+    
+        border-radius: 10px;
+        font-size: 20px;
+        border-color: aqua;
+        border-width: 2px;
+    
+    }
+.button2{
+background-color: white;
+border-radius: 200px;
+font-size: 20px;
+border-color: aqua;
+width: 120px;
+border-width: 2px;
+}
+.search
+        {
+            background-color: white;
+            border-radius: 20px;
+            font-size: 20px;
+            width: 200px;
+            border-color: rgba(57, 212, 212, 0.749);
+            border-width: 2.5px;
+        }
+        .column6{
+        float: left;
+        width:25%;
+        padding: 10px;
+
+    }
+    .row6::after{
+        content: "";
+        display: table;
+        clear: both;
+    
+    }

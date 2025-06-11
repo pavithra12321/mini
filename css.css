@@ -1,0 +1,105 @@
+body{
+    font-size: 15px;
+    background-color: rgba(169, 242, 242, 0.366);
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 13%;
+    padding: 3px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+            .custom-button
+            {
+                background-color: white;
+            
+                border-radius: 10px;
+                font-size: 20px;
+                border-color: aqua;
+                border-width: 2px;
+            
+            }
+.button2{
+    background-color: white;
+    border-radius: 200px;
+    font-size: 20px;
+    border-color: aqua;
+    width: 120px;
+    border-width: 2px;
+    }
+
+        .custom-image{
+        width: 1600px;
+        }
+        .custom-image img{
+            
+            border:2px solid rgba(57, 212, 212, 0.749);
+        
+        }
+        .search
+        {
+            background-color: white;
+            border-radius: 20px;
+            font-size: 20px;
+            width: 200px;
+            border-color: rgba(57, 212, 212, 0.749);
+            border-width: 2.5px;
+        }
+        .red
+        {
+    
+            border-radius: 20px;
+            background-color: rgb(249, 244, 244);
+            border-color: rgba(57, 212, 212, 0.749);
+            border-width: 3px;
+        }
+        .rice
+        {
+
+        border-radius: 20px;
+        border-color: rgba(57, 212, 212, 0.749);
+        border-width: 3px;
+        }
+        .about
+        {
+            border-radius: 30px;
+            border: solid white;
+            width: 90%;
+            background-color: rgba(0, 0, 0, 0.148);
+        }
+        .column2{
+            float: left;
+            width: 35%;
+            padding: 5px;
+        }
+        .row2::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+                        .top-half {
+                            right: 0;
+                            width: 100%;
+                            
+                            }
+                            .bottom-half {
+                            
+                            width: 100%;
+                            
+                            background-position:center;
+                            background-repeat: no-repeat;
+                            background-size: 600px 600px; 
+                            
+                            
+                        }
+                        

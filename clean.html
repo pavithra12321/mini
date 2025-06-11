@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shopping</title>
+        <link rel="stylesheet"href="css1.css">
+
+    </head>
+<body>
+    <div class="whole">
+    <div class="row">
+        <div class="column">
+            <img src="logo.png"height="80px">
+                <h3><i>srivi supermarket!</i></h3></div>
+
+        <div class="column">
+            <a href="mini">
+                &nbsp;<button class="custom-button"><img src="home.png" height="20px">&nbsp;Home</button></a></div>
+
+        <div class="column">
+            <label for="Categories"></label>
+            <form method="get" action="">
+            <select id="Categories" name="Categories" class="button2"
+            onchange="window.location.href=this.value;"><!--java script code-->
+                <option value="">Categories:</option>
+                <option value="rices.html">Pasta & Rice</option>
+                <option value="snaks.html">Snaks</option>
+                <option value="pets.html"> pet's care</option>
+                <option value="dri.html">Dairy&Egg</option>
+                <option value="saucesss.html">Sauces & condiments</option>
+                <option value="pe.html">Personal Care</option>
+                <option value="Clean.html">Cleaning Product</option>
+                <option value="fru.html">Fruits</option>
+                <option value="vegs.html">vegetables</option>
+                <option value="masalas.html">Spice</option>;
+                
+            </select></form></div>
+
+        
+            <div class="column">
+            <button class="custom-button" onclick="update()"><img src="about.png"height="20px">&nbsp;About</button></div>
+            <div class="column">
+                <button type="search" class="search"><img src="search.png" height="20px">&nbsp;search a product</button></div>
+
+        <div class="column">
+            <a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="custom-button"><img src="myorder.png" height="20px">&nbsp;Order</button></a></div>
+            <div class="column">
+                <button class="custom-button"><img src="setting.png"height="20px">&nbsp;Setting</button></a></div> </div>
+
+        <h1><i><center>Cleaning & Products:</center></i></h1>
+        <br><br>
+    <div class="row1">
+        <div class="column1">
+            
+            <h1><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air Freshener</i></h1>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="airfreshbuy.html">
+            <button class="side">
+            <img src="airfreshener.png"
+    height="370px" width="300px"></button></a>
+<pre><h1>         PRICE: 227</h1></pre></div>
+
+
+
+<div class="column1">
+<h1><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dishwasher</i></h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="dishwashbuy.html">
+        <button class="side">
+    <img src="vim.png"
+    height="370px" width="300px" ></button></a>
+<pre><h1>           PRICE: 229</h1>
+</pre></div>
+
+<div class="column1">
+    <h1><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Floor Cleaner</i></h1>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="floorcleanbuy.html">
+        <button class="side">
+    <img src="lizol.png"
+    height="370px" width="300px"></button></a>
+<pre><h1>            PRICE: 193</h1></pre></div></div>
+
+
+    <div class="row5">
+<div class="column5">
+    <br><br><br>
+    <h1><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Antiseptic Liquid</i></h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="dettolbuy.html">
+        <button class="side">
+    <img src="dettol.png"
+    height="370px" width="300px"></button></a>
+<pre><h1>         PRICE: 332</h1></pre></div>
+<br>
+
+
+<div class="column5">
+    <br><br>
+    <h1><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bathroom Cleaner</i></h1>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="bathroombuy.html">
+        <button class="side">
+    <img src="bathroomcleaner.png"
+    height="370px" width="280px"></button></a>
+<pre><h1>           PRICE: 179</h1></pre></div>
+
+
+    
+<div class="column5">
+    <br><br>
+    <h1><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glass Cleaner</i></h1>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="glasscleanbuy.html">
+        <button class="side">
+    <img src="glasscleaner.png"
+    height="370px" width="300px"></button></a>
+<pre><h1>          PRICE:97</h1></pre></div>
+
+
+</div>
+            
+                
+        </div>
+            
+<script>
+    function update()
+    {
+        document.getElementById("about").scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+</body>

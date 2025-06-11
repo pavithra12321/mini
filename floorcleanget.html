@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shopping</title>
+        <link rel="stylesheet"href="css3.css">
+
+    </head>
+<body>
+    <div class="top-half">
+        
+        <div class="row">
+            <div class="column">
+    <img src="logo.png"height="80px">
+        <h3><i>srivi supermarket!</i></h3></div>
+        
+        <div class="column">
+        <a href="mini">
+            &nbsp;<button class="custom-button"><img src="home.png" height="20px">&nbsp;Home</button></a></div>
+    
+    <div class="column">
+        <label for="Categories"></label>
+        <form method="get" action="">
+        <select id="Categories" name="Categories" class="button2"
+        onchange="window.location.href=this.value;"><!--java script code-->
+            <option value="">Categories:</option>
+            <option value="rices.html">Pasta & Rice</option>
+            <option value="snaks.html">Snacks</option>
+            <option value="pets.html"> pet's care</option>
+            <option value="dri.html">Dariy & Egg</option>
+            <option value="saucesss.html">Sauces & condiments</option>
+            <option value="pe.html">Personal Care</option>
+            <option value="Clean.html">Cleaning Product</option>
+            <option value="fru.html">Fruits</option>
+            <option value="vegs.html">vegetables</option>
+            <option value="masalas.html">Spice</option>;
+            
+        </select></form></div>
+    
+    
+        <div class="column">
+        <button class="custom-button" onclick="update()"><img src="about.png"height="20px">&nbsp;About</button></div>
+        <div class="column">
+            <button type="search" class="search"><img src="search.png" height="20px">&nbsp;search a product</button></div>
+    
+    <div class="column">
+        <a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="custom-button"><img src="myorder.png" height="20px">&nbsp;Order</button></a></div>
+        <div class="column">
+            <button class="custom-button"><img src="setting.png"height="20px">&nbsp;Setting</button></a></div> </div></div>
+            <div class="bottom-half">
+                <div class="split left">
+    <br><center>
+    
+        <h1><i>Floorcleane</i></h1>
+        
+    </center>
+    <br>
+    <center>
+        <a href="floorcleanget.html">
+            <button class="side">
+                <img src="lizol.png"height="250px" width="250px">
+            </button></a>
+        
+        </center>
+        <br>
+        <center>
+        <h1><i>product details:</i></h1></center>
+        <center><h2>
+            <pre> Price: 193
+    Quantity: 1l
+    Brand: Lizol
+    Scent: Lemon
+    Form: Liquid
+        Exp Date: 01.05.2025
+                Mfg Date: 01.09.2025        </pre></h2>
+                <br></center>
+            </div>
+        <div class="split right">
+    
+        <i><h1>Personal Details:</h1></i>
+        <br>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h2>
+                <input type="hidden" name="access_key" value="3ecb35d7-7f68-49c8-9745-968d06402860">
+            
+                <label for="fname">First Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="fname" placeholder="Enter your First Name" required class="input">
+                <br>
+                <br>
+                <br>
+            
+                <label for="lname" >Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="lname" placeholder="Enter your Last Name"required class="input">
+                <br>
+                <br>
+                <br>
+            
+                <label >Male&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" name="title" class="input">
+            
+                <label >Female&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" name="title" class="input">
+            
+                <label >Others&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" name="title" class="input">
+                <br>
+                <br>
+                <br>
+            
+                <label for="password">Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="password" id="password" placeholder="Enter your correct password" maxlength="6" required class="input">
+                <br>
+                <br>
+                <br>
+            
+                <label for="emailid" >Email-id:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" name="Email-id" placeholder="Enter your personal Email-id"required class="input" >
+                <br>
+                <br>
+                <br>
+            
+                <label for="address">Address:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="address" name="address" placeholder="Enter your Address"required class="input">
+                <br>
+                <br>
+                <br>
+            
+            
+                <label for="Phone number">Phone Number:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="phone number" name="Phone number" placeholder="Enter your mobile number" maxlength="10" required class="input" >
+                <br>
+                <br>
+                <br>
+            
+                <label for ="product name" >Product Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="product name" name="product name" placeholder="product name" required class="input">
+                <br>
+                <br>
+                <br>
+            
+                <label for="Quantity" >Quantity:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="number" name="Quantity" placeholder="Enter the Quantity" maxlength="5"required class="input" >
+                <br>
+                <br>
+                <br>
+            
+                <label for="time">Time:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="time" placeholder="Enter the timing "required  class="input">
+                <br>
+                <br>
+                <br>
+                
+                <label for="Payment" >Payment:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="payment" name="payment" class="input">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Master Card</option>
+                    <option value="giftcard">Gift Card</option>
+                    <option value="cash on delivery">Cash On Delivery</option>
+                </select>
+                
+                <br>
+                <br>
+                <br>
+            
+                <input type="reset" class="get">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+            
+            <a href="page1.html"
+            type="submit">
+            <button class="get">submit</button>
+            </a>
+            </form></h3>
+            <pre>
+
+
+
+
+
+
+                1
+            </pre>
+            </div></div>
+        </body></html>
+        
+    
